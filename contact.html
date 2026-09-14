@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+   
+    <title>Enginnering</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".hackathon-nav" data-bs-offset="80" tabindex="0">
+    <!-- Navigation -->
+   <nav class="navbar navbar-expand-xl fixed-top bg-light">
+        <div class="container position-relative">
+
+            <a href="index.html" class="navbar-brand">
+                <img src="images/PSAU-Logo.svg" alt="">
+                <img src="images/DF/data-forum-logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler"
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavDropDown" 
+            aria-controls="navbarNavDropDown" 
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropDown">
+            <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                    <a href="index.html#about" class="nav-link" aria-current="page">عن الملتقي</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="hakaton.html" class="nav-link" aria-current="page">هاكثون الإبتكار </a>
+                </li>
+                      <li class="nav-item">
+                    <a href="competition.html" class="nav-link" aria-current="page">المسابقة </a>
+                </li>
+                      <li class="nav-item">
+                    <a href="workshops.html" class="nav-link" aria-current="page">ورش العمل</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="page">الجوائز</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="index.html#faq" class="nav-link" aria-current="page">اسئلة شائعة</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="contact.html" class="nav-link" aria-current="page">تواصل معنا</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center align-items-lg-center"> 
+                    <img src="images/translate.svg" alt="">
+                    <a href="#"  class="nav-link" id="langBtn">English</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Main Hero-->
+     <section class="contact-hero-section text-white d-flex align-items-center">
+  <div class="container text-end">
+    <h1 class="fw-bold mb-4 header-main">يسعدنا التواصل معكم</h1>
+
+  </div>
+
+</section>
+
+<!-- About -->
+   <section id="contact">
+    <div class="container">
+        <div class="row my-6">
+            <div class="col-lg-9 col-md8 col-sm-12">
+                <h3 class="text-primary fs-3 fw-bold">هل تحتاج الي مساعده؟</h3>
+                <p>تواصل معنا لأي استفسار أو مساعدة، فريق الملتقى الهندسي جاهز لدعمك والإجابة عن جميع تساؤلاتك.</p>
+            </div>
+            <div class="col-lg-3 col-md4 col-sm-12">
+                <div class="card py-3">
+                    <p class="text-center">مشاركة الصفحة</p>
+                    <div class="d-flex flex-row m-auto">
+                        <a href="#" class="mx-2"><img src="images/icons/whatsapp.svg" alt=""></a>
+                        <a href="#" class="mx-2"><img src="images/icons/facebook-02.svg" alt=""></a>
+                        <a href="#" class="mx-2"><img src="images/icons/linkedin-02.svg" alt=""></a>
+                        <a href="#" class="mx-2"><img src="images/icons/new-twitter.svg" alt=""></a>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="apttern mb-5"></div>
+  </section>
+  <!--forum -->
+<section id="forum" class="py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <!-- form -->
+                    <form class="row g-4">
+                        <!-- الاسم الأول -->
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">الاسم الأول <span class="text-danger">*</span></label>
+                            <input type="text" id="firstName" class="form-control" placeholder="ادخل الاسم الأول">
+                        </div>
+
+                        <!-- الاسم الأخير -->
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">الاسم الأخير <span class="text-danger">*</span></label>
+                            <input type="text" id="lastName" class="form-control" placeholder="ادخل الاسم الأخير">
+                        </div>
+
+                        <!-- البريد الإلكتروني -->
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">البريد الإلكتروني <span class="text-danger">*</span></label>
+                            <input type="email" id="email" class="form-control" placeholder="ادخل البريد الإلكتروني">
+                        </div>
+
+                        <!-- رقم الجوال -->
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">رقم الجوال <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                            <span class="input-group-text mx-2">+966</span>
+                            <input type="text" id="phone" class="form-control" placeholder="5* *** ****">
+                            </div>
+                        </div>
+
+                        <!-- الفئة -->
+                        <div class="col-md-6">
+                            <label for="category" class="form-label">الفئة</label>
+                            <select id="category" class="form-select">
+                            <option selected>اقتراحات</option>
+                            <option>استفسارات</option>
+                            <option>دعم فني</option>
+                            </select>
+                        </div>
+
+                        <!-- الموضوع -->
+                        <div class="col-md-6">
+                            <label for="subject" class="form-label">موضوع</label>
+                            <input type="text" id="subject" class="form-control" placeholder="اكتب موضوعك">
+                        </div>
+
+                        <!-- رفع الملفات -->
+                        <div class="col-md-6">
+                            <label class="form-label">رفع المرفقات</label>
+                            <p class="text-muted small">
+                            الحد الأقصى لحجم الملف المسموح به هو 2 ميجابايت، وصيغ الملفات المدعومة تشمل .jpg و .png و .pdf
+                            </p>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+
+                        <!-- كيف يمكننا المساعدة -->
+                        <div class="col-md-6">
+                            <label for="message" class="form-label">كيف يمكننا المساعدة؟</label>
+                            <textarea id="message" rows="4" class="form-control" placeholder="نص تلخيصي"></textarea>
+                        </div>
+
+                        <!-- زر الإرسال -->
+                        <div class="col-12 text-end my-2">
+                            <button type="submit" class="btn btn-success text-white rounded-4">إرسال</button>
+                        </div>
+
+    </form> 
+                <!-- Form end -->
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                
+    <div class="contact-card">
+
+      <!-- تواصل مع آمر -->
+      <h5 class="section-title">تواصل مع آمر</h5>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-telephone"></i>رقم الجوال</div>
+        <a href="tel:92000343222">92000343222</a>
+      </div>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-chat-dots"></i>رسالة قصيرة</div>
+        <a href="#">199099</a>
+      </div>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-envelope"></i>البريد الإلكتروني</div>
+        <a href="mailto:help@company.sa">help@company.sa</a>
+      </div>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-printer"></i>فاكس</div>
+        <a href="#">00966-11-434-6654</a>
+      </div>
+
+      <div class="contact-item mb-3">
+        <div class="fw-semibold"> <i class="bi bi-geo-alt"></i>الموقع</div>
+        <a href="#">الرياض</a>
+      </div>
+
+      <div class="fw-semibold mb-2">تابعنا على</div>
+      <div class="social-icons mb-3">
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-instagram"></i>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- اتصالات الطوارئ -->
+      <h6 class="section-title">اتصالات الطوارئ</h6>
+      <div class="contact-item mb-1">
+        <div class="fw-semibold">الدفاع المدني</div>
+        <a href="tel:988">988</a>
+      </div>
+      <div class="contact-item mb-1">
+        <div class="fw-semibold">الشرطة</div>
+        <a href="tel:999">999</a>
+      </div>
+      <div class="contact-item mb-2">
+        <div class="fw-semibold">الإسعاف</div>
+        <a href="tel:997">997</a>
+      </div>
+      <a href="#" class="text-success fw-semibold small">عرض المزيد</a>
+
+    </div>
+ 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="text-white py-3 mt-5">
+  <div class="container" dir="rtl">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+
+      <!-- اللوجوهات يمين -->
+      <div class="d-flex flex-row align-items-md-center align-items-center footer-logos">
+        <img src="images/data/logo-psau.svg" alt="شعار الجامعة" class="mb-2 footer-logo-main">
+        <img src="images/data/logo-forum.svg" alt="شعار الملتقى" class="footer-logo-forum me-2">
+      </div>
+
+      <!-- النص يسار -->
+      <div class="text-md-start text-center footer-text">
+        <p class="mb-1 fw-light text-center">جميع الحقوق محفوظة لجامعة الأمير سطام بن عبد العزيز © 2026</p>
+        <p class="mb-0 fw-light text-center">تم تطويره وصيانته بواسطة الإدارة العامة لتقنية المعلومات</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
